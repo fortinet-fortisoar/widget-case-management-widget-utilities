@@ -1,0 +1,20 @@
+{
+    "name": "community_anonyges_widget_utilities",
+    "version": "1.0.0",
+    "title": "anonyges Widget Utility",
+    "subTitle": "community_anonyges_widget_utilities",
+    "metadata": {
+        "pages": [
+            "View Panel",
+            "Reports"
+        ],
+        "certified": "No",
+        "publisher": "anonyges@gmail.com",
+        "standalone": false,
+        "description": "Base library to provide functions to run multiple widgets that was developed by anonyges@gmail.com",
+        "compatibility": [
+            "7.5.0"
+        ]
+    },
+    "development": true
+}
