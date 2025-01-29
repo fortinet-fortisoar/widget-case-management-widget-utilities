@@ -1,6 +1,6 @@
 /* 
   author: anonyges@gmail.com
-  modified: 250102 
+  modified: 250102
 */
 'use strict';
 

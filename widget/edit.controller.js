@@ -6,11 +6,11 @@
 (function () {
   angular
     .module('cybersponse')
-    .controller('editCommunity_anonyges_widget_utilities100DevCtrl', editCommunity_anonyges_widget_utilities100DevCtrl);
+    .controller('editCommunity_anonyges_widget_utilities100Ctrl', editCommunity_anonyges_widget_utilities100Ctrl);
 
-  editCommunity_anonyges_widget_utilities100DevCtrl.$inject = ['$scope', '$uibModalInstance', 'config', 'Field', 'anonygesJSUtil_v1', 'anonygesPlaybookUtil_v1', 'anonygesFormEntityServiceUtil_v1', 'anonygesAuditlogUtil_v1'];
+  editCommunity_anonyges_widget_utilities100Ctrl.$inject = ['$scope', '$uibModalInstance', 'config', 'Field', 'anonygesJSUtil_v1', 'anonygesPlaybookUtil_v1', 'anonygesFormEntityServiceUtil_v1', 'anonygesAuditlogUtil_v1'];
 
-  function editCommunity_anonyges_widget_utilities100DevCtrl($scope, $uibModalInstance, config, Field, anonygesJSUtil_v1, anonygesPlaybookUtil_v1, anonygesFormEntityServiceUtil_v1, anonygesAuditlogUtil_v1) {
+  function editCommunity_anonyges_widget_utilities100Ctrl($scope, $uibModalInstance, config, Field, anonygesJSUtil_v1, anonygesPlaybookUtil_v1, anonygesFormEntityServiceUtil_v1, anonygesAuditlogUtil_v1) {
     $scope.config = config;
     $scope.container_uid = "dc-" + crypto.randomUUID();
 
